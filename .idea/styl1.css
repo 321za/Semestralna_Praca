@@ -1,0 +1,49 @@
+body{
+    margin: 2%;
+}
+.nav-item :hover {
+    color: #cc00cc;
+}
+
+.navbar-nav .nav-item:hover .nav-link {
+    color: #cc00cc;
+    background-color : #e6e6e6;
+}
+
+.pata {
+     text-align: center;
+     background-color: gray;
+     padding: 1.5%;
+}
+
+.logo {
+    width:2%;
+}
+
+.oNas {
+     margin-top: 5vw;
+     margin-bottom: 5vw;
+     margin-right: 15vw;
+     margin-left: 15vw;
+}
+
+p {
+
+}
+
+h1 {
+    font-size: 2.5vw;
+    color: black;
+    text-align: center;
+    text-shadow: 2px 2px 5px  #cc00cc;
+}
+
+h4 {
+    text-align: center;
+    font-size: 1.5vw;
+    color: gray;
+}
+
+h5 {
+     color: #cc00cc;
+}
