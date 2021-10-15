@@ -21,13 +21,12 @@ body{
     width:2%;
 }
 
-.oNas {
+.obsah {
      margin-top: 5vw;
      margin-bottom: 5vw;
      margin-right: 15vw;
      margin-left: 15vw;
 }
-
 
 h1 {
     font-size: 2.5vw;
@@ -77,3 +76,6 @@ h5 {
     border-color: #cc00cc;
 }
 
+.obsah {
+    margin-top: 5vw;
+}
