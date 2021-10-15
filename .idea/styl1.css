@@ -45,8 +45,16 @@ h5 {
      color: #cc00cc;
 }
 
+p {
+     margin-left: 1vw;
+}
+
 .container {
     margin-top: 5vw;
+}
+
+.container img {
+    width: 105%;
 }
 
 .fcf-form-group {
@@ -76,6 +84,6 @@ h5 {
     border-color: #cc00cc;
 }
 
-.obsah {
-    margin-top: 5vw;
-}
+
+
+
