@@ -51,10 +51,16 @@ p {
 
 .container {
     margin-top: 5vw;
+    max-width: 70vw;
+
+}
+
+img {
+    margin-top: 2%;
 }
 
 .container img {
-    width: 105%;
+    width: 100%;
 }
 
 .fcf-form-group {
@@ -82,6 +88,16 @@ p {
     color: #cc00cc;
     background-color: #e6e6e6;
     border-color: #cc00cc;
+}
+
+.klikni {
+    color: #cc00cc;
+    text-decoration: none;
+}
+
+.klikni:hover {
+   color: #cc00cc;
+   font-weight: bold;
 }
 
 
