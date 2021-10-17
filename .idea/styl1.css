@@ -1,6 +1,40 @@
 body{
     margin: 2%;
 }
+
+@media (max-width: 992px) {
+    div.obsah{
+            margin-top: 7%;
+        }
+
+    div.medzera{
+            margin-top: 7vw;
+        }
+}
+
+@media (max-width: 1200px) {
+    img.conto{
+        width: 3%;
+    }
+}
+
+@media (max-width: 768px) {
+    div.medzera{
+        margin-top: 8vw;
+    }
+}
+
+@media (max-width: 576px) {
+    div.medzera{
+            margin-top: 10vw;
+        }
+}
+
+.navbar {
+    background-color: white !important;
+    padding: 1vw;
+}
+
 .nav-item :hover {
     color: #cc00cc;
 }
@@ -10,26 +44,41 @@ body{
     background-color : #e6e6e6;
 }
 
+.conto{
+    max-width: 6%;
+    display: block;
+    margin-left: auto;
+}
+
+.obsah {
+     margin-top: 6%;
+     margin-right: 11vw;
+     margin-left: 11vw;
+}
+
 .pata {
-     margin-top: 3vw;
+     margin-top: 5vw;
      text-align: center;
      background-color: gray;
      padding: 1.5%;
 }
 
-.logo {
+.icons {
     width:2%;
+    margin: auto;
+    display: inline;
 }
 
-.obsah {
-     margin-top: 5vw;
-     margin-bottom: 5vw;
-     margin-right: 15vw;
-     margin-left: 15vw;
+.container {
+    margin-top: 5vw;
+    max-width: 75vw;
+}
+
+.row {
+    margin-top: 6vw;
 }
 
 h1 {
-    font-size: 2.5vw;
     color: black;
     text-align: center;
     text-shadow: 2px 2px 5px  #cc00cc;
@@ -37,7 +86,6 @@ h1 {
 
 h4 {
     text-align: center;
-    font-size: 1.5vw;
     color: gray;
 }
 
@@ -47,12 +95,6 @@ h5 {
 
 p {
      margin-left: 1vw;
-}
-
-.container {
-    margin-top: 5vw;
-    max-width: 70vw;
-
 }
 
 img {
@@ -100,6 +142,6 @@ img {
    font-weight: bold;
 }
 
-
-
-
+iframe {
+    max-width: 100%;
+}
