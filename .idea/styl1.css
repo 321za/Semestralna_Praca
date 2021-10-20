@@ -27,7 +27,7 @@ body {
 @media (max-width: 576px) {
     div.medzera{
             margin-top: 10vw;
-        }
+    }
 }
 
 .navbar {
@@ -48,12 +48,6 @@ body {
     max-width: 6%;
     display: block;
     margin-left: auto;
-}
-
-.obsah {
-     margin-top: 6%;
-     margin-right: 11vw;
-     margin-left: 11vw;
 }
 
 .pata {
