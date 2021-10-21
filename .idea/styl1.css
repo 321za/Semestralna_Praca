@@ -8,12 +8,6 @@ body {
         }
 }
 
-@media (max-width: 1200px) {
-    img.conto{
-        width: 3%;
-    }
-}
-
 @media (max-width: 768px) {
     div.medzera{
         margin-top: 8vw;
@@ -70,6 +64,9 @@ body {
     border: 2px solid #00b3b3;
 }
 
+.row {
+    margin-top: 2%;
+}
 
 h1 {
     color: black;
@@ -92,6 +89,10 @@ p {
 
 img {
     margin-top: 2%;
+}
+
+.medzera {
+    margin-top: 7vw;
 }
 
 .fcf-form-group {
